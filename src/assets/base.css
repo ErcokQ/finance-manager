@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "exo";
+  src: url(/fonts/Exo/Exo/static/Exo-Medium.ttf) format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(/fonts/Exo/Roboto/static/Roboto-Black.ttf) format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: exo, roboto, sans-serif;
+}
