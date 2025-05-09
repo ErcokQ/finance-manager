@@ -3,10 +3,16 @@ import AuthLayout from '@/layouts/AuthLayout.vue'
 import LoginApp from '@/views/Auth/LoginApp.vue'
 import RegisterApp from '@/views/Auth/RegisterApp.vue'
 import RecoverApp from '@/views/Auth/RecoverApp.vue'
+import PresentationApp from '@/views/Info/PresentationApp.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: PresentationApp
+    },
     {
       path: '/auth',
       component: AuthLayout,
@@ -26,7 +32,6 @@ const router = createRouter({
           name: 'recover',
           component: RecoverApp
         }
-
       ]
     },
   ],

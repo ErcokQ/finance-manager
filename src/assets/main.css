@@ -1,3 +1,11 @@
 @import "tailwindcss";
 @import './base.css';
 @custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-night-900: #0d1117;
+  --color-night-800: #0d1b2a;
+  --color-night-700: #112240;
+  --color-night-600: #1e293b;
+  --color-night-500: #2d3748;
+}
